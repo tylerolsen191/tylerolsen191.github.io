@@ -1,167 +1,142 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <style>
-        body {
-          background: linen;
-        }
-        
-        h1 {
-          color: maroon;
-        } 
+  <title>PhotoV Hosting</title>
+<style>
+p {
+  color: green;
+}
 
-        p {
-            color:rgb(47, 28, 65)
-        }
+h1 {
+  color: maroon;
+}
 
-        .dropbtn {
-        background-color: #c2723d;
-        color: rgb(0, 0, 0);
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-        }
+.title {
+  color: teal;
+}
 
-        .dropdown {
-        position: relative;
-        display: inline-block;
-        }
+.uppercase {
+  text-transform: uppercase;
+}
 
-        .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        }
+#article-title {
+  font-family: cursive;
+}
 
-        .dropdown-content a {
-        color: rgb(255, 255, 255);
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        }
+a[href*='florence'] {
+  color: rgb(31, 234, 31);
+}
 
-        .dropdown-content a:hover {background-color: #f1f1f1}
+a:hover {
+  color:rgb(255, 164, 52);
+}
 
-        .dropdown:hover .dropdown-content {
-        display: block;
-        }
+.heading-background {
+  background-color: rgb(16, 242, 4);
+}
 
-        .dropdown:hover .dropbtn {
-        background-color: #34968e;
-        }
+#publish-time {
+  color: lightgray;
+}
 
-        a {
-        background-color: #3d723d;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-        }
+h5 {
+  color: rgb(0, 0, 0);
+}
 
-        .introbar {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: linen;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        }
+.author-class {
+  color: pink;
+}
 
-        .media {
-        margin-left: 600px;
-        background: #5d9ab2 url("img_2263") no-repeat top left;  
-        }
+#author-id {
+  color: cornflowerblue;
+}
 
-        .center_text {
-        border: 1px solid gray;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-        background-color: #d0f0f6;
-        text-align: left;
-        padding: 8px;   
-        }
+h2.destination {
+  font-family: Tahoma;
+}
 
-        footer {
-        background-color: rgb(184, 27, 27);
-        border: 1px solid gray;
-        padding: 10px;
-        text-align: center;
-        color: white;
-        }
+.description h5 {
+  color: blueviolet;
+}
 
-        header {
-        background-color: #666;
-        border: 1px solid gray;
-        padding: 15px;
-        text-align: center;
-        font-size: 35px;
-        color: white;
-        }
-        </style>
-    <title>I like cats :)</title>
+li h4 {
+  color: rgb(175, 71, 11);
+}
+
+h4 {
+  color: dodgerblue;
+}
+
+li,
+h5 {
+  font-family: monospace;
+}
+
+.navigation {
+  box-sizing: border-box;
+  background-color: #3587A4;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #EEE;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
+</style>
 </head>
-<body>
-    <div class="introbar">
-    <a href="./my cats.html" target="_blank">About</a>
-    <a href="./my cats.html" target="_blank">Portfolio</a>
-    <a href="./my cats.html" target="_blank">The Cats</a>
-    <a href="./my cats.html" target="_blank">Donate</a>
-    </div>
-    <div class="intro">
-        <header>
-            <h2>CATS</h2>
-        </header>
-        <h1>Cats inside the house</h1>
-        <h2>We have cats!</h2>
-        <p>The cats that we have inside of the house are:</p>
-        <ul>
-            <li>Baby</li>
-            <li>Mikey</li>
-            <li>Muchkin</li>
-        </ul>
-        <h2>Why</h2>
-        <p>These cats are all under 5 years old, while 2 of them are under 3 years old</p>
-    </div>
-    <div id="middle">
-        <h1>Who else has cats?</h1>
-        <h2>My friends also have cats</h2>
-        <p>The cats my friends also have are:</p>
-        <ul>
-            <li>Pulga</li>
-            <li>Steven</li>
-            <li>Tia</li>
-        </ul>
-        <h3>I love these cats!</h3>
-    </div>
-    <div class="Media">
-        <h1>Media</h1>
-        <div class="center_text">
-        <h1>I really want to do text boxes</h1>
-        <p>REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</p>
-        </div>
-        <h2>Click the button for pictures of the cats!</h2>
-        <div class="dropdown">
-            <button class="dropbtn">Cats</button>
-            <div class="dropdown-content">
-            <a href="#">Baby</a>
-            <a href="#">Mikey</a>
-            <a href="#">Munchkin</a>
-            </div>
-    </div>
-    <div id="End">
-        <h2>End</h2>
-    </div>
 
-    <footer>
-        <p>FEET</p>
-    </footer>
+<body>
+    <ul class="navigation">
+        <li><img src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>
+        <li class="active">Photos</li>
+        <li>Video</li>
+        <li>Settings</li>
+      </ul>
+  
+    <h2 class='destination heading-background'>1. Florence, Italy</h2>
+  <div class='description'>A city-size shrine to the Renaissance, Florence offers frescoes, sculptures, churches, palaces, and other monuments from the richest cultural flowering the world has known. Names from its dazzling historical past; Dante, Michelangelo, Galileo, Machiavelliare are some of the most resonant of the medieval age. <a href='https://www.nationalgeographic.com/travel/destination/florence' target='_blank'>Learn More</a>.
+    <h5>Top Attractions</h5>
+    <ul>
+      <li>Museums</li>
+      <li>Bike Tours</li>
+      <li>Historical Monuments</li>
+    </ul>
+  </div>
+
+  <h2 class='heading-background'> More Destinations </h2>
+  <ul>
+    <li><h4 class='destination'>Jackson Hole, Wyoming</h4></li>
+    <li><h4 class='destination'>Cape Town, South Africa</h4></li>
+    <li><h4 class='destination'>La Paz, Bolivia</h4></li>
+  </ul>
+
+  <p>&mdash;Best of luck with your travels, and be sure to send pictures and stories. We'd love to hear them!</p>
+
+
 </body>
+
 </html>
